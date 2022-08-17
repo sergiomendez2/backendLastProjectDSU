@@ -1,0 +1,83 @@
+@startuml
+package Player {
+abstract Player{}
+class ListOfPlayer{}
+class IA
+class Human
+}
+package game {
+
+interface gamePlayer{
+        +Results(): resume
+    }
+    class Game {
+        -gamePlayer: players[]
+        +{abstract} resume()
+        +{abstract} play()
+        +getPlayer(gamePlayerList getPlayer)
+    }
+    interface GamePlayerListProvider{
+            +getPlayerList(int total_Players): gamePlayer[]
+    }
+
+package hangman{
+class hangedMan{
++secreteWordSeparatedByLines:char[]
++separateSecretWordByLine(string secretWord):char[]
++giveHint(string secretWord)
++isSecretWordSeparatedByLine():boolean
+}
+Interface HangedManPlayer
+    class HangMan{
+        +HangMan()
+        +getAmountOfPlayers():int
+        -int maxAttempts
+    }
+
+    class Round{
+    +reversePlayer(Player player1, Player player2)
+    }
+    class Turn{
+        -WordGiverable wordGiver
+        -WordGuesserable wordGuesser
+        -HangedMan hangedMan
+        +Turn()
+    }
+
+    interface WordGiverable{
+        +giveWord():String
+    }
+
+    interface WordGuesserable{
+        +guesseWord():String
+        +tryLetter():char
+        +askForHint()
+    }
+
+    HangedManPlayer ..|> WordGiverable
+    HangedManPlayer ..|> WordGuesserable
+
+    Turn *-- WordGiverable
+    Turn *-- WordGuesserable
+    Turn *-- hangedMan
+    Round *-- Turn
+    HangMan *-- Player
+    HangMan *-- "2" Round
+
+
+
+
+gamePlayer..|> HangedManPlayer
+Player ..|> gamePlayer
+ListOfPlayer ..|> GamePlayerListProvider
+Game..>GamePlayerListProvider
+Game..|>HangMan
+Game*--gamePlayer
+IA--|>Player
+Human--|>Player
+Turn*--HangedManPlayer
+
+
+}
+}
+@enduml

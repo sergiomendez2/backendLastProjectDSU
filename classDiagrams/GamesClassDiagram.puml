@@ -1,0 +1,68 @@
+@startuml
+package executableGames{
+    class Main{
+        main()
+    }
+
+    Class MainGames{
+        -Games[] games
+        -ListOfPlayers listOfPlayers
+        -ListOfResults listOfResults
+        -CRUD crud
+        -Statistics statistics
+        +MainGames()
+        +printMenu()
+        +printGamesOption()
+        +executeOption()
+    }
+
+    class CRUD{
+        -ListOfPlayers listOfPlayers
+        + CRUD()
+        + executeCrud(): void
+        + createPlayer(): void
+        + showPlayer(): void
+        + updatePlayer(): void
+        + deletePlayer(): void
+    }
+
+    class Statistics{
+        + showStatistics()
+    }
+
+    package players{
+        class ListOfPlayers{
+        }
+
+        class ListOfResults{
+        }
+    }
+
+    package games{
+        class Game{
+            -int NumberOfPlayers
+            -TypeGame typeGame
+            +{abstract}introduction()
+            +{abstract}execute()
+            +{abstract}resume()
+            +{abstract}getNumberOfPlayers()
+        }
+    }
+
+    package utils{
+        class Dice{
+            + getRandomNumber()
+        }
+    }
+
+    Main *-- MainGames
+
+    MainGames *-- CRUD
+    MainGames *-- Statistics
+    MainGames --> ListOfPlayers
+    MainGames *--"2" Game
+    MainGames --> ListOfResults
+    MainGames --> Dice
+
+    CRUD --> ListOfPlayers
+@enduml
