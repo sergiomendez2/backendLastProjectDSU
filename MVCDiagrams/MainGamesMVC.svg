@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="503px" preserveAspectRatio="none" style="width:943px;height:503px;background:#FFFFFF;" version="1.1" viewBox="0 0 943 503" width="943px" zoomAndPan="magnify"><defs/><g><!--MD5=[1f2cfc53d9d308f53762fd0fcbaa4873]
+cluster Controller--><g id="cluster_Controller"><path d="M232.5,184 L304.5,184 A3.75,3.75 0 0 1 307,186.5 L314,207.6094 L598.5,207.6094 A2.5,2.5 0 0 1 601,210.1094 L601,369.5 A2.5,2.5 0 0 1 598.5,372 L232.5,372 A2.5,2.5 0 0 1 230,369.5 L230,186.5 A2.5,2.5 0 0 1 232.5,184 " style="stroke:#000000;stroke-width:1.5;fill:none;"/><line style="stroke:#000000;stroke-width:1.5;fill:none;" x1="230" x2="314" y1="207.6094" y2="207.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="71" x="234" y="200.5332">Controller</text></g><!--MD5=[15636c1ca4a123c16a2a1a8e90aca7a9]
+cluster Model--><g id="cluster_Model"><path d="M486.5,396 L531.5,396 A3.75,3.75 0 0 1 534,398.5 L541,419.6094 L780.5,419.6094 A2.5,2.5 0 0 1 783,422.1094 L783,493.5 A2.5,2.5 0 0 1 780.5,496 L486.5,496 A2.5,2.5 0 0 1 484,493.5 L484,398.5 A2.5,2.5 0 0 1 486.5,396 " style="stroke:#000000;stroke-width:1.5;fill:none;"/><line style="stroke:#000000;stroke-width:1.5;fill:none;" x1="484" x2="541" y1="419.6094" y2="419.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="44" x="488" y="412.5332">Model</text></g><!--MD5=[e320b41f2d43b11d6de1346cab4ea5fc]
+cluster View--><g id="cluster_View"><path d="M8.5,6 L42.5,6 A3.75,3.75 0 0 1 45,8.5 L52,29.6094 L203.5,29.6094 A2.5,2.5 0 0 1 206,32.1094 L206,360.5 A2.5,2.5 0 0 1 203.5,363 L8.5,363 A2.5,2.5 0 0 1 6,360.5 L6,8.5 A2.5,2.5 0 0 1 8.5,6 " style="stroke:#000000;stroke-width:1.5;fill:none;"/><line style="stroke:#000000;stroke-width:1.5;fill:none;" x1="6" x2="52" y1="29.6094" y2="29.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="33" x="10" y="22.5332">View</text></g><!--MD5=[c52f45833d539af9e29a9d34b8b7302b]
+cluster utils--><g id="cluster_utils"><path d="M748.5,219 L779.5,219 A3.75,3.75 0 0 1 782,221.5 L789,242.6094 L933.5,242.6094 A2.5,2.5 0 0 1 936,245.1094 L936,334.5 A2.5,2.5 0 0 1 933.5,337 L748.5,337 A2.5,2.5 0 0 1 746,334.5 L746,221.5 A2.5,2.5 0 0 1 748.5,219 " style="stroke:#000000;stroke-width:1.5;fill:none;"/><line style="stroke:#000000;stroke-width:1.5;fill:none;" x1="746" x2="789" y1="242.6094" y2="242.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="30" x="750" y="235.5332">utils</text></g><!--MD5=[91b737a0aa6758b352ed748d11ff2125]
+class PlayerController--><g id="elem_PlayerController"><rect codeLine="2" fill="#F1F1F1" height="136.0469" id="PlayerController" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="154" x="431" y="220"/><ellipse cx="455" cy="236" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M457,232.5 Q457.2031,232 457.4375,231.75 Q457.6719,231.5 457.9375,231.5 Q458.4063,231.5 458.7031,231.7813 Q459,232.0625 459,232.7188 L459,234.2813 Q459,234.9375 458.7188,235.2188 Q458.4375,235.5 458,235.5 Q457.6094,235.5 457.3594,235.3281 Q457.1094,235.1563 457,234.7031 Q456.9531,234.3906 456.7813,234.2188 Q456.4688,233.8906 455.9063,233.7031 Q455.3438,233.5 454.7813,233.5 Q454.0781,233.5 453.4844,233.7813 Q452.9063,234.0625 452.4531,234.6875 Q452,235.3125 452,236.1719 L452,237.0938 Q452,238.125 452.8438,238.8125 Q453.6875,239.5 455.1875,239.5 Q456.0781,239.5 456.7031,239.2969 Q457.0625,239.1875 457.4688,238.8281 Q457.7344,238.625 457.875,238.5625 Q458.0156,238.5 458.1875,238.5 Q458.5156,238.5 458.75,238.7656 Q459,239.0156 459,239.375 Q459,239.7188 458.6563,240.125 Q458.1563,240.7188 457.3594,241.0469 Q456.3125,241.5 455.0313,241.5 Q453.5313,241.5 452.3281,240.9063 Q451.3594,240.4375 450.6719,239.4219 Q450,238.4063 450,237.2031 L450,236.1094 Q450,234.8594 450.5938,233.7656 Q451.2031,232.6719 452.25,232.0938 Q453.3125,231.5 454.5,231.5 Q455.2188,231.5 455.8438,231.75 Q456.4688,232 457,232.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="102" x="471" y="241.7285">PlayerController</text><line style="stroke:#181818;stroke-width:0.5;" x1="432" x2="584" y1="252" y2="252"/><line style="stroke:#181818;stroke-width:0.5;" x1="432" x2="584" y1="260" y2="260"/><ellipse cx="442" cy="271" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="124" x="451" y="278.5332">executeCrud(): void</text><ellipse cx="442" cy="288.6094" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="124" x="451" y="296.1426">createPlayer(): void</text><ellipse cx="442" cy="306.2188" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="116" x="451" y="313.752">showPlayer(): void</text><ellipse cx="442" cy="323.8281" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="128" x="451" y="331.3613">updatePlayer(): void</text><ellipse cx="442" cy="341.4375" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="123" x="451" y="348.9707">deletePlayer(): void</text></g><!--MD5=[e1ed3d7b3fee1b3fcdddf22435bb9f4c]
+class StatisticsController--><g id="elem_StatisticsController"><rect codeLine="9" fill="#F1F1F1" height="65.6094" id="StatisticsController" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="150" x="246" y="255"/><ellipse cx="261" cy="271" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M263,267.5 Q263.2031,267 263.4375,266.75 Q263.6719,266.5 263.9375,266.5 Q264.4063,266.5 264.7031,266.7813 Q265,267.0625 265,267.7188 L265,269.2813 Q265,269.9375 264.7188,270.2188 Q264.4375,270.5 264,270.5 Q263.6094,270.5 263.3594,270.3281 Q263.1094,270.1563 263,269.7031 Q262.9531,269.3906 262.7813,269.2188 Q262.4688,268.8906 261.9063,268.7031 Q261.3438,268.5 260.7813,268.5 Q260.0781,268.5 259.4844,268.7813 Q258.9063,269.0625 258.4531,269.6875 Q258,270.3125 258,271.1719 L258,272.0938 Q258,273.125 258.8438,273.8125 Q259.6875,274.5 261.1875,274.5 Q262.0781,274.5 262.7031,274.2969 Q263.0625,274.1875 263.4688,273.8281 Q263.7344,273.625 263.875,273.5625 Q264.0156,273.5 264.1875,273.5 Q264.5156,273.5 264.75,273.7656 Q265,274.0156 265,274.375 Q265,274.7188 264.6563,275.125 Q264.1563,275.7188 263.3594,276.0469 Q262.3125,276.5 261.0313,276.5 Q259.5313,276.5 258.3281,275.9063 Q257.3594,275.4375 256.6719,274.4219 Q256,273.4063 256,272.2031 L256,271.1094 Q256,269.8594 256.5938,268.7656 Q257.2031,267.6719 258.25,267.0938 Q259.3125,266.5 260.5,266.5 Q261.2188,266.5 261.8438,266.75 Q262.4688,267 263,267.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="118" x="275" y="276.7285">StatisticsController</text><line style="stroke:#181818;stroke-width:0.5;" x1="247" x2="395" y1="287" y2="287"/><line style="stroke:#181818;stroke-width:0.5;" x1="247" x2="395" y1="295" y2="295"/><ellipse cx="257" cy="306" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="98" x="266" y="313.5332">showStatistics()</text></g><!--MD5=[82a37a108f28ded8fb022e1a5df25ae5]
+class ListOfPlayers--><g id="elem_ListOfPlayers"><rect codeLine="15" fill="#F1F1F1" height="48" id="ListOfPlayers" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="116" x="500" y="432"/><ellipse cx="515" cy="448" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M517,444.5 Q517.2031,444 517.4375,443.75 Q517.6719,443.5 517.9375,443.5 Q518.4063,443.5 518.7031,443.7813 Q519,444.0625 519,444.7188 L519,446.2813 Q519,446.9375 518.7188,447.2188 Q518.4375,447.5 518,447.5 Q517.6094,447.5 517.3594,447.3281 Q517.1094,447.1563 517,446.7031 Q516.9531,446.3906 516.7813,446.2188 Q516.4688,445.8906 515.9063,445.7031 Q515.3438,445.5 514.7813,445.5 Q514.0781,445.5 513.4844,445.7813 Q512.9063,446.0625 512.4531,446.6875 Q512,447.3125 512,448.1719 L512,449.0938 Q512,450.125 512.8438,450.8125 Q513.6875,451.5 515.1875,451.5 Q516.0781,451.5 516.7031,451.2969 Q517.0625,451.1875 517.4688,450.8281 Q517.7344,450.625 517.875,450.5625 Q518.0156,450.5 518.1875,450.5 Q518.5156,450.5 518.75,450.7656 Q519,451.0156 519,451.375 Q519,451.7188 518.6563,452.125 Q518.1563,452.7188 517.3594,453.0469 Q516.3125,453.5 515.0313,453.5 Q513.5313,453.5 512.3281,452.9063 Q511.3594,452.4375 510.6719,451.4219 Q510,450.4063 510,449.2031 L510,448.1094 Q510,446.8594 510.5938,445.7656 Q511.2031,444.6719 512.25,444.0938 Q513.3125,443.5 514.5,443.5 Q515.2188,443.5 515.8438,443.75 Q516.4688,444 517,444.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="84" x="529" y="453.7285">ListOfPlayers</text><line style="stroke:#181818;stroke-width:0.5;" x1="501" x2="615" y1="464" y2="464"/><line style="stroke:#181818;stroke-width:0.5;" x1="501" x2="615" y1="472" y2="472"/></g><!--MD5=[58311934e25ae3e54e46e6f33a20d705]
+class ListOfResults--><g id="elem_ListOfResults"><rect codeLine="18" fill="#F1F1F1" height="48" id="ListOfResults" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="116" x="651" y="432"/><ellipse cx="666" cy="448" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M668,444.5 Q668.2031,444 668.4375,443.75 Q668.6719,443.5 668.9375,443.5 Q669.4063,443.5 669.7031,443.7813 Q670,444.0625 670,444.7188 L670,446.2813 Q670,446.9375 669.7188,447.2188 Q669.4375,447.5 669,447.5 Q668.6094,447.5 668.3594,447.3281 Q668.1094,447.1563 668,446.7031 Q667.9531,446.3906 667.7813,446.2188 Q667.4688,445.8906 666.9063,445.7031 Q666.3438,445.5 665.7813,445.5 Q665.0781,445.5 664.4844,445.7813 Q663.9063,446.0625 663.4531,446.6875 Q663,447.3125 663,448.1719 L663,449.0938 Q663,450.125 663.8438,450.8125 Q664.6875,451.5 666.1875,451.5 Q667.0781,451.5 667.7031,451.2969 Q668.0625,451.1875 668.4688,450.8281 Q668.7344,450.625 668.875,450.5625 Q669.0156,450.5 669.1875,450.5 Q669.5156,450.5 669.75,450.7656 Q670,451.0156 670,451.375 Q670,451.7188 669.6563,452.125 Q669.1563,452.7188 668.3594,453.0469 Q667.3125,453.5 666.0313,453.5 Q664.5313,453.5 663.3281,452.9063 Q662.3594,452.4375 661.6719,451.4219 Q661,450.4063 661,449.2031 L661,448.1094 Q661,446.8594 661.5938,445.7656 Q662.2031,444.6719 663.25,444.0938 Q664.3125,443.5 665.5,443.5 Q666.2188,443.5 666.8438,443.75 Q667.4688,444 668,444.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="84" x="680" y="453.7285">ListOfResults</text><line style="stroke:#181818;stroke-width:0.5;" x1="652" x2="766" y1="464" y2="464"/><line style="stroke:#181818;stroke-width:0.5;" x1="652" x2="766" y1="472" y2="472"/></g><!--MD5=[5d3822d29342fbd355d1b65ea3562ec9]
+class GameView--><g id="elem_GameView"><rect codeLine="24" fill="#F1F1F1" height="118.4375" id="GameView" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="168" x="22" y="229"/><ellipse cx="68.25" cy="245" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M70.25,241.5 Q70.4531,241 70.6875,240.75 Q70.9219,240.5 71.1875,240.5 Q71.6563,240.5 71.9531,240.7813 Q72.25,241.0625 72.25,241.7188 L72.25,243.2813 Q72.25,243.9375 71.9688,244.2188 Q71.6875,244.5 71.25,244.5 Q70.8594,244.5 70.6094,244.3281 Q70.3594,244.1563 70.25,243.7031 Q70.2031,243.3906 70.0313,243.2188 Q69.7188,242.8906 69.1563,242.7031 Q68.5938,242.5 68.0313,242.5 Q67.3281,242.5 66.7344,242.7813 Q66.1563,243.0625 65.7031,243.6875 Q65.25,244.3125 65.25,245.1719 L65.25,246.0938 Q65.25,247.125 66.0938,247.8125 Q66.9375,248.5 68.4375,248.5 Q69.3281,248.5 69.9531,248.2969 Q70.3125,248.1875 70.7188,247.8281 Q70.9844,247.625 71.125,247.5625 Q71.2656,247.5 71.4375,247.5 Q71.7656,247.5 72,247.7656 Q72.25,248.0156 72.25,248.375 Q72.25,248.7188 71.9063,249.125 Q71.4063,249.7188 70.6094,250.0469 Q69.5625,250.5 68.2813,250.5 Q66.7813,250.5 65.5781,249.9063 Q64.6094,249.4375 63.9219,248.4219 Q63.25,247.4063 63.25,246.2031 L63.25,245.1094 Q63.25,243.8594 63.8438,242.7656 Q64.4531,241.6719 65.5,241.0938 Q66.5625,240.5 67.75,240.5 Q68.4688,240.5 69.0938,240.75 Q69.7188,241 70.25,241.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="67" x="88.75" y="250.7285">GameView</text><line style="stroke:#181818;stroke-width:0.5;" x1="23" x2="189" y1="261" y2="261"/><line style="stroke:#181818;stroke-width:0.5;" x1="23" x2="189" y1="269" y2="269"/><ellipse cx="33" cy="280" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="84" x="42" y="287.5332">introduction()</text><ellipse cx="33" cy="297.6094" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="59" x="42" y="305.1426">execute()</text><ellipse cx="33" cy="315.2188" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="57" x="42" y="322.752">resume()</text><ellipse cx="33" cy="332.8281" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="142" x="42" y="340.3613">getNumberOfPlayers()</text></g><!--MD5=[2d27b8d09dc36c86956b1ecbc3afbb36]
+class MainGamesView--><g id="elem_MainGamesView"><rect codeLine="32" fill="#F1F1F1" height="118.4375" id="MainGamesView" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="151" x="38.5" y="42"/><ellipse cx="60.25" cy="58" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M62.25,54.5 Q62.4531,54 62.6875,53.75 Q62.9219,53.5 63.1875,53.5 Q63.6563,53.5 63.9531,53.7813 Q64.25,54.0625 64.25,54.7188 L64.25,56.2813 Q64.25,56.9375 63.9688,57.2188 Q63.6875,57.5 63.25,57.5 Q62.8594,57.5 62.6094,57.3281 Q62.3594,57.1563 62.25,56.7031 Q62.2031,56.3906 62.0313,56.2188 Q61.7188,55.8906 61.1563,55.7031 Q60.5938,55.5 60.0313,55.5 Q59.3281,55.5 58.7344,55.7813 Q58.1563,56.0625 57.7031,56.6875 Q57.25,57.3125 57.25,58.1719 L57.25,59.0938 Q57.25,60.125 58.0938,60.8125 Q58.9375,61.5 60.4375,61.5 Q61.3281,61.5 61.9531,61.2969 Q62.3125,61.1875 62.7188,60.8281 Q62.9844,60.625 63.125,60.5625 Q63.2656,60.5 63.4375,60.5 Q63.7656,60.5 64,60.7656 Q64.25,61.0156 64.25,61.375 Q64.25,61.7188 63.9063,62.125 Q63.4063,62.7188 62.6094,63.0469 Q61.5625,63.5 60.2813,63.5 Q58.7813,63.5 57.5781,62.9063 Q56.6094,62.4375 55.9219,61.4219 Q55.25,60.4063 55.25,59.2031 L55.25,58.1094 Q55.25,56.8594 55.8438,55.7656 Q56.4531,54.6719 57.5,54.0938 Q58.5625,53.5 59.75,53.5 Q60.4688,53.5 61.0938,53.75 Q61.7188,54 62.25,54.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="104" x="75.75" y="63.7285">MainGamesView</text><line style="stroke:#181818;stroke-width:0.5;" x1="39.5" x2="188.5" y1="74" y2="74"/><line style="stroke:#181818;stroke-width:0.5;" x1="39.5" x2="188.5" y1="82" y2="82"/><ellipse cx="49.5" cy="93" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="114" x="58.5" y="100.5332">MainGamesView()</text><ellipse cx="49.5" cy="110.6094" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="73" x="58.5" y="118.1426">printMenu()</text><ellipse cx="49.5" cy="128.2188" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="125" x="58.5" y="135.752">printGamesOption()</text><ellipse cx="49.5" cy="145.8281" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="101" x="58.5" y="153.3613">executeOption()</text></g><!--MD5=[f7a9ae25cb0ac60c5f03b7bfd778cce3]
+class Dice--><g id="elem_Dice"><rect codeLine="46" fill="#F1F1F1" height="65.6094" id="Dice" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="158" x="762" y="255"/><ellipse cx="822.75" cy="271" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M824.75,267.5 Q824.9531,267 825.1875,266.75 Q825.4219,266.5 825.6875,266.5 Q826.1563,266.5 826.4531,266.7813 Q826.75,267.0625 826.75,267.7188 L826.75,269.2813 Q826.75,269.9375 826.4688,270.2188 Q826.1875,270.5 825.75,270.5 Q825.3594,270.5 825.1094,270.3281 Q824.8594,270.1563 824.75,269.7031 Q824.7031,269.3906 824.5313,269.2188 Q824.2188,268.8906 823.6563,268.7031 Q823.0938,268.5 822.5313,268.5 Q821.8281,268.5 821.2344,268.7813 Q820.6563,269.0625 820.2031,269.6875 Q819.75,270.3125 819.75,271.1719 L819.75,272.0938 Q819.75,273.125 820.5938,273.8125 Q821.4375,274.5 822.9375,274.5 Q823.8281,274.5 824.4531,274.2969 Q824.8125,274.1875 825.2188,273.8281 Q825.4844,273.625 825.625,273.5625 Q825.7656,273.5 825.9375,273.5 Q826.2656,273.5 826.5,273.7656 Q826.75,274.0156 826.75,274.375 Q826.75,274.7188 826.4063,275.125 Q825.9063,275.7188 825.1094,276.0469 Q824.0625,276.5 822.7813,276.5 Q821.2813,276.5 820.0781,275.9063 Q819.1094,275.4375 818.4219,274.4219 Q817.75,273.4063 817.75,272.2031 L817.75,271.1094 Q817.75,269.8594 818.3438,268.7656 Q818.9531,267.6719 820,267.0938 Q821.0625,266.5 822.25,266.5 Q822.9688,266.5 823.5938,266.75 Q824.2188,267 824.75,267.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="28" x="843.25" y="276.7285">Dice</text><line style="stroke:#181818;stroke-width:0.5;" x1="763" x2="919" y1="287" y2="287"/><line style="stroke:#181818;stroke-width:0.5;" x1="763" x2="919" y1="295" y2="295"/><ellipse cx="773" cy="306" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="132" x="782" y="313.5332">getRandomNumber()</text></g><!--MD5=[e68c5e1f6bb2abe99e8c1d8668bca068]
+reverse link MainGamesView to PlayerController--><g id="link_MainGamesView_PlayerController"><path codeLine="53" d="M202.66,109.3 C265.55,117.81 349.83,136.22 414,176 C432.24,187.31 448.73,203.35 462.63,219.72 " fill="none" id="MainGamesView-backto-PlayerController" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="189.58,107.63,195.0266,112.3559,201.4839,109.146,196.0373,104.42,189.58,107.63" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[63916191ab3905049a1484532f48a533]
+reverse link MainGamesView to StatisticsController--><g id="link_MainGamesView_StatisticsController"><path codeLine="54" d="M197.9,168.95 C200.64,171.31 203.35,173.67 206,176 C234.93,201.51 266.35,232.04 289.02,254.62 " fill="none" id="MainGamesView-backto-StatisticsController" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="187.81,160.39,189.7963,167.3222,196.9591,168.1549,194.9729,161.2227,187.81,160.39" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[6b7cc5a98e68a5c5873ac137c03e403e]
+link MainGamesView to ListOfPlayers--><g id="link_MainGamesView_ListOfPlayers"><path codeLine="55" d="M189.71,102.01 C313.05,103.83 548.88,115.36 601,176 C660.1,244.76 624.33,292.39 601,380 C596.52,396.81 587.29,413.77 578.52,427.3 " fill="none" id="MainGamesView-to-ListOfPlayers" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="575.57,431.75,583.8696,426.4474,578.327,427.5788,577.1956,422.0362,575.57,431.75" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[d523b4a1771c6009dd1275d4111cdacd]
+reverse link MainGamesView to GameView--><g id="link_MainGamesView_GameView"><path codeLine="56" d="M110.92,173.18 C110.13,191.59 109.28,211.2 108.51,228.86 " fill="none" id="MainGamesView-backto-GameView" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="111.49,160.03,107.2365,165.853,110.9756,172.019,115.2291,166.1959,111.49,160.03" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="101.3893" y="218.1672">2</text></g><!--MD5=[9b7d76bce1ab03df26f6bd659446c57d]
+link MainGamesView to ListOfResults--><g id="link_MainGamesView_ListOfResults"><path codeLine="57" d="M189.65,102.41 C319.73,104.73 578.08,116.87 643,176 C714.83,241.42 715.49,369.29 711.75,426.34 " fill="none" id="MainGamesView-to-ListOfResults" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="711.38,431.63,716.0128,422.9388,711.7373,426.6428,708.0333,422.3672,711.38,431.63" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[2334a2fd424deacad7fa9aebf03f059e]
+link MainGamesView to Dice--><g id="link_MainGamesView_Dice"><path codeLine="58" d="M189.61,104.66 C333.54,110.74 640.92,128.97 735,176 C768.8,192.89 797.67,225.13 816.71,250.52 " fill="none" id="MainGamesView-to-Dice" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="819.92,254.86,817.7805,245.2463,816.9452,250.8412,811.3504,250.006,819.92,254.86" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[ac0928bfe04fa661fd400edaaa751f17]
+link PlayerController to ListOfPlayers--><g id="link_PlayerController_ListOfPlayers"><path codeLine="59" d="M528.19,356.04 C535.58,380.55 543.54,406.99 549.38,426.37 " fill="none" id="PlayerController-to-ListOfPlayers" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="550.96,431.64,552.1918,421.8685,549.5167,426.8528,544.5323,424.1777,550.96,431.64" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[af37c44626409e2232a34e1dacf8ddc0]
+@startuml
+package Controller{
+ class PlayerController{
+        + executeCrud(): void
+        + createPlayer(): void
+        + showPlayer(): void
+        + updatePlayer(): void
+        + deletePlayer(): void
+    }
+      class StatisticsController{
+                     + showStatistics()
+                 }
+}
+
+    package Model{
+        class ListOfPlayers{
+        }
+
+        class ListOfResults{
+        }
+    }
+
+    package View{
+
+        class GameView{
+        /'    -int NumberOfPlayers
+            -TypeGame typeGame'/
+            +{abstract}introduction()
+            +{abstract}execute()
+            +{abstract}resume()
+            +{abstract}getNumberOfPlayers()
+        }
+          class MainGamesView{
+             /'   -Games[] games
+                -ListOfPlayers listOfPlayers
+                -ListOfResults listOfResults
+                -CRUD crud
+                -StatisticsController statistics'/
+                +MainGamesView()
+                +printMenu()
+                +printGamesOption()
+                +executeOption()
+            }
+    }
+
+    package utils{
+        class Dice{
+            + getRandomNumber()
+        }
+    }
+
+
+
+    MainGamesView *- - PlayerController
+    MainGamesView *- - StatisticsController
+    MainGamesView - -> ListOfPlayers
+    MainGamesView *- -"2" GameView
+    MainGamesView - -> ListOfResults
+    MainGamesView - -> Dice
+    PlayerController - -> ListOfPlayers
+@enduml
+
+@startuml
+package Controller{
+ class PlayerController{
+        + executeCrud(): void
+        + createPlayer(): void
+        + showPlayer(): void
+        + updatePlayer(): void
+        + deletePlayer(): void
+    }
+      class StatisticsController{
+                     + showStatistics()
+                 }
+}
+
+    package Model{
+        class ListOfPlayers{
+        }
+
+        class ListOfResults{
+        }
+    }
+
+    package View{
+
+        class GameView{
+            +{abstract}introduction()
+            +{abstract}execute()
+            +{abstract}resume()
+            +{abstract}getNumberOfPlayers()
+        }
+          class MainGamesView{
+                +MainGamesView()
+                +printMenu()
+                +printGamesOption()
+                +executeOption()
+            }
+    }
+
+    package utils{
+        class Dice{
+            + getRandomNumber()
+        }
+    }
+
+
+
+    MainGamesView *- - PlayerController
+    MainGamesView *- - StatisticsController
+    MainGamesView - -> ListOfPlayers
+    MainGamesView *- -"2" GameView
+    MainGamesView - -> ListOfResults
+    MainGamesView - -> Dice
+    PlayerController - -> ListOfPlayers
+@enduml
+
+PlantUML version 1.2022.6(Tue Jun 21 11:34:49 CST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: en
+Country: US
+--></g></svg>

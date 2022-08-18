@@ -1,0 +1,87 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+package model {
+
+class HangManturn {
+ -id_turn int
+ -finished boolean
+ -id_playerGiver Player
+ -id_playerGuesser Player
+ -isHangedMan boolean
+}
+
+class Player {
+ -id_player int
+ -name string
+ -id_typePlayer int
+}
+
+class TypePlayer {
+ -id_typePlayer int
+ -name string
+}
+
+class HangedMan {
+ -id_hangedMan int
+ -secretWord string
+ -tries_left int
+ -letters_used string
+ -id_hangManturn
+}
+
+class TTTTurn {
+     -id_turn int
+     -finnished boolean
+     -id_playerX Player
+     -id_player0 Player
+     -id_winner Player
+     -isDraw boolean
+     -movements_playerX int
+     -movements_player0 int
+}
+
+class Square {
+     -id_turn int
+     -column int
+     -row int
+     -id_piece piece
+}
+
+class Piece {
+     -id_piece int
+     -name String
+}
+
+    class Statistics{
+        -id_statistics int
+        - playerWinner: Player
+        - playerLoser: Player
+        -id_hangManturn : int
+        -id_tttTurn    : int
+        -id_typeGame : int
+    }
+
+    class TypeGame {
+        -id_typeGame int
+        -name string
+    }
+
+}
+
+HangManturn*--Player : PlayerGiver
+HangManturn*--Player : PlayerGuesser
+Player*--TypePlayer : IA, Human
+TTTTurn *-- Player : Winner
+TTTTurn *-- Player : PlayerX
+TTTTurn *-- Player : Player0
+Square o-- Piece
+Square *-- TTTTurn
+HangedMan*--HangManturn
+Statistics*--TypeGame
+Statistics*--TTTTurn
+Statistics*--HangManturn
+Statistics*--Player : PlayerWinner
+Statistics*--Player : PlayerLoser
+
+@enduml

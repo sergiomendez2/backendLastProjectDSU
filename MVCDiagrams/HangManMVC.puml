@@ -1,48 +1,51 @@
 @startuml
-package Player {
+package Model {
 abstract Player{}
 class ListOfPlayer{}
-class IA
-class Human
+enum TypePlayer
 }
-package game {
+package View {
+  class HangManView{
+        -Player Player 1
+        -Player player 2
+        -int maxAttempts
+        -TurnController
+        +getAmountOfPlayers():int
+        +HangManView()
+        +play()
+    }
+     class GameView {
 
+            +{abstract} resume()
+            +{abstract} play()
+            +getPlayer(gamePlayerList getPlayer)
+        }
+
+      }
+package Controller{
 interface gamePlayer{
         +Results(): resume
     }
-    class Game {
-        -gamePlayer: players[]
-        +{abstract} resume()
-        +{abstract} play()
-        +getPlayer(gamePlayerList getPlayer)
-    }
+
     interface GamePlayerListProvider{
             +getPlayerList(int total_Players): gamePlayer[]
     }
 
-package hangman{
-class hangedMan{
+
+class hangedManController{
 +secreteWordSeparatedByLines:char[]
 +separateSecretWordByLine(string secretWord):char[]
 +giveHint(string secretWord)
 +isSecretWordSeparatedByLine():boolean
 }
 Interface HangedManPlayer
-    class HangMan{
-        -Player Player 1
-        -Player player 2
-        +getAmountOfPlayers():int
-        +HangMan()
-        -int maxAttempts
-        -Turn
-        +play()
-    }
+
 
     class Round{
     +reversePlayer(Player player1, Player player2)
     }
-    class Turn{
-         +HangedMan hangedMan
+    class TurnController{
+         +HangedMan hangedManController
          +init()
          +PlayTurns()
          +printEndGameMessage()
@@ -59,30 +62,27 @@ Interface HangedManPlayer
         +askForHint()
     }
 
+
     HangedManPlayer ..|> WordGiverable
     HangedManPlayer ..|> WordGuesserable
 
-    Turn *-- WordGiverable
-    Turn *-- WordGuesserable
-    Turn *-- hangedMan
-    Round *-- Turn
-    HangMan *-- Player
-    HangMan *-- "2" Round
-
-
-
+    TurnController *-- WordGiverable
+    TurnController *-- WordGuesserable
+    TurnController *-- hangedManController
+    Round *-- TurnController
+    HangManView *-- Player
+    HangManView *-- "2" Round
 
 gamePlayer..|> HangedManPlayer
 Player ..|> gamePlayer
 ListOfPlayer ..|> GamePlayerListProvider
-Game..>GamePlayerListProvider
-Game..|>HangMan
-Game*--gamePlayer
-IA--|>Player
-Human--|>Player
-Turn*--HangedManPlayer
+GameView..>GamePlayerListProvider
+GameView..|>HangManView
+GameView*--gamePlayer
+TypePlayer--|>Player
 
+TurnController*--HangedManPlayer
 
 }
-}
+
 @enduml

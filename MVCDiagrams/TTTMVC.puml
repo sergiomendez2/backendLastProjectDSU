@@ -1,0 +1,95 @@
+@startuml
+package View{
+   class TicTacToeView{
+        +TicTacToeView()
+        +tttPlayer: player1
+        +tttPlayer: player2
+
+    }
+
+      class GameView {
+            -gamePlayer: players[]
+            +{abstract} resume()
+            +{abstract} play()
+            +getPlayer(gamePlayerList getPlayer)
+        }
+
+}
+
+package Controller{
+
+
+ interface gamePlayer{
+        +Results(): resume
+    }
+
+    interface gamePlayerList{
+            +getPlayerList(int total_Players): gamePlayer[]
+
+    }
+
+    class TurnController{
+        -BoardController board
+        +TurnController(Board board)
+        +init()
+        +playTurns()
+        +printEndGame()
+        +getNextPlayer() Player
+    }
+
+
+    class Coordinate{
+        +isSequence(coordinate cord) boolean
+    }
+
+    class BoardController{
+        -Piece[3][3] square
+        +putPiece() boolean
+        +paintBoard()
+        +isTTT()
+        +getWinner()
+    }
+
+
+    interface tttPlayer{
+       +getCoordinate(board):coordinate
+
+    }
+
+}
+
+
+
+package Model{
+    class ListOfPlayer
+    enum Piece{
+            -X
+            -0
+            -Empty
+        }
+
+    abstract Player{
+            +getCoordinate(): coordinate
+            +put()
+        }
+    enum TypePlayer
+
+}
+    GameView <|.. TicTacToeView
+    TypePlayer --|> Player
+
+    TurnController --* TicTacToeView
+    TurnController --> tttPlayer
+    tttPlayer *--> Piece
+    tttPlayer ..> Coordinate
+    tttPlayer --> BoardController
+    BoardController *--> Piece
+    TicTacToeView *-- tttPlayer
+    TicTacToeView *--> BoardController
+    Player ..|> gamePlayer
+    gamePlayer ..|> tttPlayer
+    GameView *.. gamePlayer
+    GameView ..> gamePlayerList
+    ListOfPlayer ..|> gamePlayerList
+
+@enduml

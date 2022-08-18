@@ -1,0 +1,61 @@
+@startuml
+package Controller{
+ class PlayerController{
+        + executeCrud(): void
+        + createPlayer(): void
+        + showPlayer(): void
+        + updatePlayer(): void
+        + deletePlayer(): void
+    }
+      class StatisticsController{
+                     + showStatistics()
+                 }
+}
+
+    package Model{
+        class ListOfPlayers{
+        }
+
+        class ListOfResults{
+        }
+    }
+
+    package View{
+
+        class GameView{
+        /'    -int NumberOfPlayers
+            -TypeGame typeGame'/
+            +{abstract}introduction()
+            +{abstract}execute()
+            +{abstract}resume()
+            +{abstract}getNumberOfPlayers()
+        }
+          class MainGamesView{
+             /'   -Games[] games
+                -ListOfPlayers listOfPlayers
+                -ListOfResults listOfResults
+                -CRUD crud
+                -StatisticsController statistics'/
+                +MainGamesView()
+                +printMenu()
+                +printGamesOption()
+                +executeOption()
+            }
+    }
+
+    package utils{
+        class Dice{
+            + getRandomNumber()
+        }
+    }
+
+
+
+    MainGamesView *-- PlayerController
+    MainGamesView *-- StatisticsController
+    MainGamesView --> ListOfPlayers
+    MainGamesView *--"2" GameView
+    MainGamesView --> ListOfResults
+    MainGamesView --> Dice
+    PlayerController --> ListOfPlayers
+@enduml
