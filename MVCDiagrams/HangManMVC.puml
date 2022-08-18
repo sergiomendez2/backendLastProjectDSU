@@ -71,14 +71,14 @@ Interface HangedManPlayer
     TurnController *-- hangedManController
     Round *-- TurnController
     HangManView *-- Player
-    HangManView *-- "2" Round
+    HangManView ..> "2" Round
 
 gamePlayer..|> HangedManPlayer
 Player ..|> gamePlayer
 ListOfPlayer ..|> GamePlayerListProvider
 GameView..>GamePlayerListProvider
 GameView..|>HangManView
-GameView*--gamePlayer
+GameView ..>gamePlayer
 TypePlayer--|>Player
 
 TurnController*--HangedManPlayer

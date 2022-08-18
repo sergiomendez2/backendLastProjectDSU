@@ -78,14 +78,14 @@ package Model{
     GameView <|.. TicTacToeView
     TypePlayer --|> Player
 
-    TurnController --* TicTacToeView
+    TurnController <.. TicTacToeView
     TurnController --> tttPlayer
     tttPlayer *--> Piece
     tttPlayer ..> Coordinate
     tttPlayer --> BoardController
     BoardController *--> Piece
-    TicTacToeView *-- tttPlayer
-    TicTacToeView *--> BoardController
+    TicTacToeView ..> tttPlayer
+    TicTacToeView ..> BoardController
     Player ..|> gamePlayer
     gamePlayer ..|> tttPlayer
     GameView *.. gamePlayer
